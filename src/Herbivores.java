@@ -12,8 +12,6 @@ public class Herbivores extends Mammals {
         this.foodType = foodType;
     }
 
-
-
     @Override
     public void eat() {
 

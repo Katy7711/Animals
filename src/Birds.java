@@ -10,16 +10,6 @@ public abstract class Birds extends Animals{
     }
 
 
-    @Override
-    public abstract void eat();
-
-
-    @Override
-    public abstract void sleep();
-
-    @Override
-    public abstract void go();
-
     public abstract void hunt();
 
     public String getLivingEnvironment() {

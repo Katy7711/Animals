@@ -2,7 +2,6 @@ import java.util.Objects;
 
 public class Flightless extends Birds{
 
-
     private final String movementType;
 
     public Flightless(String name, int birtYear, String livingEnvironment, String movementType) {

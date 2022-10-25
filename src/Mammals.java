@@ -1,12 +1,7 @@
 import java.util.Objects;
-
 public abstract class Mammals extends Animals{
-
-
     private final String livingEnvironment;
     private final int runningSpeed;
-
-
 
     public Mammals(String name, int birtYear, String livingEnvironment, int runningSpeed) {
         super(name, birtYear);
@@ -14,14 +9,6 @@ public abstract class Mammals extends Animals{
         this.runningSpeed = runningSpeed;
     }
 
-    @Override
-    public abstract void eat();
-
-    @Override
-    public abstract void sleep();
-
-    @Override
-    public abstract void go();
 
     public abstract void walk();
 

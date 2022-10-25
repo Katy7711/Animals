@@ -10,6 +10,15 @@ public class Amphibians extends Animals{
         this.livingEnvironment = livingEnvironment;
     }
 
+    public void hunt() {
+
+    }
+
+    public String getLivingEnvironment() {
+        return livingEnvironment;
+    }
+
+
     @Override
     public void eat() {
 
@@ -24,15 +33,6 @@ public class Amphibians extends Animals{
     public void go() {
 
     }
-
-    public void hunt() {
-
-    }
-
-    public String getLivingEnvironment() {
-        return livingEnvironment;
-    }
-
 
     @Override
     public boolean equals(Object o) {

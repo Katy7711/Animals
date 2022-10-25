@@ -12,7 +12,6 @@ public class Predators extends Mammals {
     }
 
 
-
     @Override
     public void eat() {
         System.out.println("кушать то,что добыл на охоте");
